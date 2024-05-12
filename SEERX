@@ -1,1 +1,4 @@
 console.log("Hello SAAD")
+function main (){
+rturn null ;
+}
