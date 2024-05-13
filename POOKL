@@ -1,4 +1,2 @@
 console.log("Hello SAED")
-function main(){
-return null;
-}
+
