@@ -1,13 +1,15 @@
-class Car {
+class POOKL {
+  carnage: any;
   constructor(brand) {
-    this.carname = brand;
+    this.carnage = brand;
   }
   present() {
-    return 'I have a ' + this.carname;
+    return 'I have a ' + this.carnage;
   }
 }
 
-class Model extends Car {
+class Model extends POOKL {
+  model: any;
   constructor(brand, mod) {
     super(brand);
     this.model = mod;
@@ -18,4 +20,4 @@ class Model extends Car {
 }
 
 let myCar = new Model("Ford", "Mustang");
-document.getElementById("demo").innerHTML = myCar.show();
+const newLocal = document.getElementById("demo");
